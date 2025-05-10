@@ -20,3 +20,30 @@ img{
 p {
     padding: 10px;
 }
+main {
+    max-width: 840px;
+}
+main img {
+    width: 150px;
+    height: auto;
+}
+aside {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid purple;
+    padding: 15px;
+    background-color: blueviolet;
+    color: aqua;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+p {
+    padding: 0;
+}
+footer {
+    margin-top: 10px;
+    border-top: 1px solid purple;
+    text-align: center;
+}
