@@ -16,6 +16,39 @@ header{
     padding: 0;
     box-sizing: border-box;
 }
+.page-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 16px;
+}
+.header-logo {
+    width: 80px; /* smaller logo */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.main-nav {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-button {
+    font-family: var(--text-font);
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
 body{
     font-family: var(--text-font);
     color: black;
@@ -32,8 +65,73 @@ nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a{
+.history-section {
+    text-align: center;
+}
+
+.history-section .history-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+.history-section img {
+    width: 200px; /* or whatever size fits well */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.history-section p {
+    max-width: 200px;
+}
+.adventure-gallery h2{
+    text-align: center;
+    padding: 6px;
+}
+.adventure-gallery .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.adventure-gallery figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* Adjust to desired thumbnail size */
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.adventure-gallery figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
+}
+.page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 16px;
+}
+
+.socialmedia{
     text-decoration: none;
+    display: flex;
+    gap: 12px;
+    padding: 6px;
 }
 .hero{
     position: relative;
@@ -51,7 +149,7 @@ nav, p, section, article{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #ffff;
+    color: black;
 }
 .hero article{
     position: absolute;
