@@ -172,3 +172,102 @@ nav, p, section, article{
     width: 25px;
     height: 25px;
 }
+
+/* contact us page */
+form {
+    display: grid;
+    gap: 12px;
+    max-width: 600px;
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    background-color: var(--accent2-color);
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    font-family: var(--text-font);
+    font-size: 1rem;
+}
+
+form button {
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.employee-gallery {
+    display: flex;
+    gap: 16px;
+    margin: 16px;
+    flex-wrap: wrap;
+}
+
+.employee-gallery figure {
+    text-align: center;
+}
+/* Reusable spacing and layout */
+section {
+    margin: 24px 16px;
+    padding: 16px;
+}
+
+.contact-info iframe {
+    margin-top: 12px;
+    border-radius: 8px;
+}
+
+/* Employee Gallery */
+.employee-gallery {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.employee-gallery figure {
+    text-align: center;
+}
+
+.employee-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form Styling */
+.contact-form form {
+    display: grid;
+    gap: 12px;
+    max-width: 600px;
+    margin-top: 16px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button[type="submit"] {
+    padding: 10px 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
