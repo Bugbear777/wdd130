@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips | White Water Rafting</title>
+    <meta name="description" content="Explore our white water rafting trips for all skill levels, from beginner floats to expert rapids.">
+    <meta name="author" content="Joseph Marlow">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header class="page-header">
+        <img src="images/wwrImage.jpeg" alt="WWR logo" class="header-logo">
+        <nav class="main-nav">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="about.html" class="nav-button">About Us</a>
+            <a href="trips.html" class="nav-button">Trips</a>
+            <a href="contact.html" class="nav-button">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro-section">
+            <h2>Choose Your Adventure</h2>
+            <p>We offer a variety of white water rafting trips to suit all ages and experience levels. Whether you're looking for a relaxing float or an adrenaline-filled run through Class IV rapids, we’ve got you covered!</p>
+        </section>
+
+        <section class="adventure-gallery">
+            <h2>Trip Options</h2>
+            <div class="image-grid">
+                <figure>
+                    <img src="images/rafting1.jpg" alt="Family floating on a calm river">
+                    <figcaption><strong>Beginner Float</strong><br>Perfect for families and first-timers. Enjoy scenic views and gentle waters.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting2.jpg" alt="Group navigating moderate rapids">
+                    <figcaption><strong>Intermediate Rapids</strong><br>A great balance of thrill and scenery. Ages 10+ welcome.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting3.jpg" alt="Team charging through large rapids">
+                    <figcaption><strong>Advanced Whitewater</strong><br>High-adrenaline adventure for experienced rafters. Must be 16+.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting4.jpg" alt="Group camping by the river">
+                    <figcaption><strong>Overnight Experience</strong><br>Camp under the stars with meals and gear provided. All skill levels.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Plan Your Trip</h2>
+            <form action="#" method="post" aria-label="Trip Planning Form">
+                <label for="tripname">Name:</label>
+                <input type="text" id="tripname" name="tripname" required>
+
+                <label for="tripemail">Email:</label>
+                <input type="email" id="tripemail" name="tripemail" required>
+
+                <label for="triptype">Trip Type:</label>
+                <select id="triptype" name="triptype" required>
+                    <option value="">--Select a Trip--</option>
+                    <option value="beginner">Beginner Float</option>
+                    <option value="intermediate">Intermediate Rapids</option>
+                    <option value="advanced">Advanced Whitewater</option>
+                    <option value="overnight">Overnight Experience</option>
+                </select>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="submit">Request Info</button>
+            </form>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <p>&copy;2025 | White Water Rafting | Joseph Marlow</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://X.com">
+                <img src="images/x.png" alt="X">
+            </a>
+            <a href="https://Tiktok.com">
+                <img src="images/tiktok.png" alt="Tiktok">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
